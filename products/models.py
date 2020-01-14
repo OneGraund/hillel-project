@@ -7,4 +7,4 @@ class Item(models.Model):
     price = models.IntegerField()			  				   #Цена товара
     quantity = models.IntegerField(default=0) 				   #Количество товара на складе
     def __str__(self):
-    	return (f"{self.id}: {self.name}") 
+    	return (f"{self.id}: {self.name}")
